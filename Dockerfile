@@ -1,5 +1,5 @@
-# Use the latest version of MySQL from the official repository
-FROM mysql:latest
+# You can change this to a newer version of MySQL available at
+# https://hub.docker.com/r/mysql/mysql-server/tags/
+FROM mysql/mysql-server:8.0.24
 
-# Copy custom MySQL configuration into the container
 COPY config/user.cnf /etc/mysql/my.cnf
