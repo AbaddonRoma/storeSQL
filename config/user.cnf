@@ -4,3 +4,5 @@
 
 # Listen on all interfaces
 bind-address=0.0.0.0
+
+skip-log-bin
