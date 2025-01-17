@@ -1,8 +1,2 @@
 [mysqld]
-# Needed for compatibility with existing SQL clients / WordPress.
-# default-authentication-plugin=mysql_native_password
-
-# Listen on all interfaces
-# bind-address=0.0.0.0
-
-skip-log-bin
+max_connections=200
